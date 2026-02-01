@@ -30,3 +30,8 @@ build/
 stt-bot-*.zip
 stt-bot-*.tar.gz
 _create_package.ps1
+
+# FFmpeg binaries (too large for GitHub, users install separately)
+tools/windows/*.exe
+tools/linux/ffmpeg
+tools/linux/ffprobe
