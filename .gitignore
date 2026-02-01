@@ -1,0 +1,32 @@
+# Portable version gitignore
+
+# Виртуальное окружение
+.venv/
+
+# Локальная установка Python
+python310/
+
+# Конфигурация (содержит секреты)
+.env
+
+# Логи и временные файлы
+logs/
+temp/
+*.log
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+build/
+stt-bot-*.zip
+stt-bot-*.tar.gz
+_create_package.ps1

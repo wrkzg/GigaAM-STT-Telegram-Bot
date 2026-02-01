@@ -1,0 +1,27 @@
+# Telegram Bot
+python-telegram-bot>=20.7
+python-dotenv>=1.0.0
+
+# GigaAM
+gigaam
+
+# Обработка аудио (GigaAM включает большинство зависимостей)
+# torch>=2.5,<2.9  # Будет установлен с gigaam
+# torchaudio>=2.5,<2.9  # Будет установлен с gigaam
+
+# Для длинных аудиозаписей (опционально)
+# torch==2.8.*
+# torchaudio==2.8.*
+# pyannote.audio==4.0
+# torchcodec==0.7
+# numba>=0.62
+
+# Утилиты
+aiofiles>=23.2.0
+aiohttp>=3.9.0
+
+# Логирование
+colorlog>=6.8.0
+
+# Для GPU (если используете ONNX)
+# onnxruntime-gpu==1.23.*
